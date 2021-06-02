@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>풀드포크</title>
+    <meta name="viewport" content="width=640, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="css/contents.css">
+    <link rel="stylesheet" href="css/lib/owl.carousel.min.css">
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/ui_script.js"></script>
+</head>
+<script>
+    $(function(){
+        //scroll
+        var $btn = $('.getIt_btn'),
+            $loca = $('.btn_area');
+        $(window).on('load scroll',function() {
+             if($(window).scrollTop() + $(window).height() > $loca.offset().top + $btn.outerHeight()){
+                $btn.removeClass('fixed');
+                return false;
+           } else {
+                 $btn.addClass('fixed');
+                 return false;
+           }
+        })
+    })
+
+</script>
+<body>
+<header>
+<h1 class="blind">풀드포크 그맛이 알고 싶다!</h1>
+<img src="imgs/main/img_main_top.jpg" alt="2018.04.02~04.08 단7일! 풀드포크는 돼지고기를 오랜시간 스모크하여 만든 아메리칸 바비큐요리입니다.">
+</header>
+<div class="contents">
+    <section class="bg_blk">
+        <div class="inner">
+            <p><img src="imgs/main/tit_vdo.jpg" alt="영상보기"></p>
+            <div class="vdo_wrap">
+			<iframe webkit-playsinline width="200" height="200" src="https://www.youtube.com/embed/7ZEiYvbBLns?feature=player_detailpage&playsinline=1&enablejsapi=1&version=3&playerapiid=ytplayer&rel=0&autoplay=1&controls=2&showinfo=0&wmode=opaque" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="bg_brown">
+        <div class="inner">
+            <img src="imgs/main/list_step01.jpg" alt="인기절정 풀드포크 식사권이 가득가득!">
+			<a href="#"><img src="imgs/main/list_step02.jpg" alt="인기절정 풀드포크 식사권이 가득가득!"></a>
+            <p class="blind">1.참여방법:풀드포크 영상보기▶"풀드포크 식사권받기"버튼클릭▶퀴즈풀고 원하는 식사권 선택하면 완료 2. 선물:식사권0000장(식사권 내용은 아래'참여매장'확인 3.당첨자발표 응모익일 개별sms공지, 홈페이지 공지사항 확인</p>
+        </div>
+    </section>
+    <section class="bg_brown2">
+        <div class="inner">
+            <p><img src="imgs/main/tit_introduce.jpg" alt="참여매장 풀드포크로 만든 다양한 요리를 맛볼 수 있는 기회! 꼭 가봐야 할 맛집을 소개합니다"></p>
+            <div class="slide_area">
+                <div id="shop01" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/01_Linus_1_menu.jpg" alt="메뉴사진">
+                        <div class="shop_name">
+                            <p>풀드포크 플래터 15,000원</p>
+							<p>풀드포크 샌드위치 세트 12,000원</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/01_Linus_2_chef.jpg" alt="메뉴사진">
+                        <div class="shop_name">
+                            <p>해방촌점에서 풀드포크 플래터 또는 샌드위치</p>
+							<p>세트를 시키면 <span class="t_yeollow">수제소시지</span>를 무료로 드려요!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/01_Linus_3_shop.jpg" alt="메뉴사진">
+                        <div class="shop_name">
+                            <p>미국 남부식 바베큐 전문점으로 알리바마식 </p>
+                            <p>풀드포크를 주문 즉시 손으로 찢어 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop02" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/02_LOCOS_1_menu.jpg" alt="코로스비비큐">
+                        <div class="shop_name">
+                            <p>로코스 오리지널 풀드포크 버거</p>
+							<p>프레쉬 베지터블 버거 외 총 4종 각 13,900원</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/02_LOCOS_2_chef.jpg" alt="코로스비비큐">
+                        <div class="shop_name">
+                            <p>사과나무로 16시간 훈연하여 </p>
+							<p>기름기를 빼고 담백함을 더한 4종류의 풀드포크 버거</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/02_LOCOS_3_shop.jpg" alt="코로스비비큐">
+                        <div class="shop_name">
+                            <p>언제나 파이팅 넘치는 분위기와 </p>
+                            <p>우리 입맛에 맞는 진짜 바비큐 맛집(총 7개매장)</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop03" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/03_MANIMAL_1_menu.jpg" alt="매니멀스모크하우스">
+                        <div class="shop_name">
+                            <p>풀드포크 플래터(2인) 34,000원</p>
+							<p>풀드포크+코울슬로+브로콜리+구운야채&옥수수+버터롤</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/03_MANIMAL_2_chef.jpg" alt="매니멀스모크하우스">
+                        <div class="shop_name">
+                            <p>평소보다 1.5배나 풀드포크를 늘린 양으로</p>
+							<p>2명이 배부르게 즐기는 일주일간의 기회!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/03_MANIMAL_3_shop.jpg" alt="매니멀스모크하우스">
+                        <div class="shop_name">
+                            <p>Low&Slow의 전통 바비큐 방식을 고수하며</p>
+                            <p>손님을 친구로 만드는 특별한 공간</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop04" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/04_SMOKY_1_menu.jpg" alt="스모키러버스">
+                        <div class="shop_name">
+                            <p>풀드포크 샌드위치 9,900원</p>
+							<p>풀드포크가 부드러우면서 바삭한 바게트 안에 가득가득!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/04_SMOKY_2_chef.jpg" alt="스모키러버스">
+                        <div class="shop_name">
+                            <p>특별한 비법 향신료에 4일동안 염지하고</p>
+							<p>사과나무로 천천히 구워 촉촉한 풀드포크!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/04_SMOKY_3_shop.jpg" alt="스모키러버스">
+                        <div class="shop_name">
+                            <p>아메리칸 바비큐에 아시안 스타일의 </p>
+                            <p>소스로 특색을 더한 새로운 바비큐 레스토랑</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop05" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/05_SUBWAY_1_menu.jpg" alt="써브웨이">
+                        <div class="shop_name">
+                            <p>풀드포크 5,900원(15cm)/9,900원(30cm)</p>
+							<p>긴 시간 저온 훈연한 미국 정통 스타일의 리얼 바비큐 풀드포크</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/05_SUBWAY_2_chef.jpg" alt="써브웨이">
+                        <div class="shop_name">
+                            <p>Let's Get It! 박재범도 한입에 반해버린 </p>
+							<p>리얼 풀드포크 샌드위치!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/05_SUBWAY_3_shop.jpg" alt="써브웨이">
+                        <div class="shop_name">
+                            <p>신선한 재료로 주문과 동시에 만들어지는</p>
+                            <p>맞춤형 샌드위치 전문점</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop06" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/06_ABOUTJINS_1_menu.jpg" alt="어바웃진스">
+                        <div class="shop_name">
+                            <p>풀드포크 플래터 15,900원</p>
+							<p>풀드포크+코울슬로+드라이럽프렌치프라이+햄버거빵</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/06_ABOUTJINS_2_chef.jpg" alt="어바웃진스">
+                        <div class="shop_name">
+                            <p>아무런 양념없이 오직 훈연으로만 11시간</p>
+							<p>훈연하여 깔끔하고 부드러운 풀드포크가 특징</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/06_ABOUTJINS_3_shop.jpg" alt="어바웃진스">
+                        <div class="shop_name">
+                            <p>미국 텍사스 스타일의 BBQ 전문 레스토랑.</p>
+                            <p>모든 음식을 만들고, 스모커까지 직접 제작한 금손</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop07" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/07_AUSTIN_1_menu.jpg" alt="오스틴">
+                        <div class="shop_name">
+                            <p>풀드포크 플래터(2인) 23,900원</p>
+							<p>풀드포크/사이즈 2종-감자튀김/맥앤치즈  등</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/07_AUSTIN_2_chef.jpg" alt="오스틴">
+                        <div class="shop_name">
+                            <p>직접 매일 훈연하여 바비큐향을 가득 품은</p>
+							<p>풀드포크로 다양한 사이드와 함께 즐기세요</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/07_AUSTIN_3_shop.jpg" alt="오스틴">
+                        <div class="shop_name">
+                            <p>장시간 저온에서 천연 나무칩으로 </p>
+                            <p>훈연한 정통 텍사스 바비큐를 선보이는 바비큐 레스토랑</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop08" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/08_JohnCook_1_menu.jpg" alt="존쿡델리미트">
+                        <div class="shop_name">
+                            <p>풀드포크 샥슈카 14,500원</p>
+							<p>모짜렐라, 토마토소스 등으로 맛을 낸 풀드포크 라이스</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/08_JohnCook_2_chef.jpg" alt="존쿡델리미트">
+                        <div class="shop_name">
+                            <p>이스라엘식 가정식 풀드포크 라이스로</p>
+							<p>매콤함과 부드러운 치즈가 매력적!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/08_JohnCook_3_shop.jpg" alt="존쿡델리미트">
+                        <div class="shop_name">
+                            <p>국내 최초 정통 델리미트, 존쿡델리미트는</p>
+                            <p>바비큐와 다양한 소시지를 맛볼 수 있는 곳</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop09" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/09_Tomatillo_1_menu.jpg" alt="토마틸로">
+                        <div class="shop_name">
+                            <p>포크 퀘사디아 10,500~13,000원</p>
+							<p>밀토르티아에 치즈와 풀드포크를 듬뿍 넣어 완성</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/09_Tomatillo_2_chef.jpg" alt="토마틸로">
+                        <div class="shop_name">
+                            <p>풀드포크 퀘사디아와 바삭한 수제 나쵸, </p>
+							<p>신선한 샐러드까지 함께 제공되요!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <img src="imgs/main/shop_menu/09_Tomatillo_3_shop.jpg" alt="토마틸로">
+                        <div class="shop_name">
+                            <p>신선한 멕시칸 음식을 </p>
+                            <p>스타일리쉬하게 즐기는 “Mexican Pub & Grill”</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop10" class="tab_cont owl-carousel">
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/10_JULIO_1_menu.jpg" alt="훌리오">
+                        <div class="shop_name">
+                            <p>풀드포크 엔칠라다 14,500원</p>
+							<p>콘또띠아에 풀드포크를 채우고 소스와 함께 즐기는 요리</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/10_JULIO_2_chef.jpg" alt="훌리오">
+                        <div class="shop_name">
+                            <p>훌리오 엔칠라다의 풀드포크는 겉면을 </p>
+							<p>크리스피하게 구워 더욱 바삭하게 즐길 수 있어요</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/main/shop_menu/10_JULIO_3_shop.jpg" alt="훌리오">
+                        <div class="shop_name">
+                            <p>셰프가 만드는 멕시칸 요리, 훌리오는</p>
+                            <p>최상의 재료로 다양한 멕시칸 요리를 제공하는 곳</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="shop_list tabMotion">
+                <li><a href="#shop01"><img src="imgs/main/logo_01.jpg" alt="라이너스비비큐"></a></li>
+                <li><a href="#shop02"><img src="imgs/main/logo_02.jpg" alt="로코스비비큐"></a></li>
+                <li><a href="#shop03"><img src="imgs/main/logo_03.jpg" alt="매니멀스모크하우스"></a></li>
+                <li><a href="#shop04"><img src="imgs/main/logo_04.jpg" alt="스모키러버스"></a></li>
+                <li><a href="#shop05"><img src="imgs/main/logo_05.jpg" alt="써브웨이"></a></li>
+                <li><a href="#shop06"><img src="imgs/main/logo_06.jpg" alt="어바웃진스"></a></li>
+                <li><a href="#shop07"><img src="imgs/main/logo_07.jpg" alt="오스틴"></a></li>
+                <li><a href="#shop08"><img src="imgs/main/logo_08.jpg" alt="존쿡델리미트"></a></li>
+                <li><a href="#shop09"><img src="imgs/main/logo_09.jpg" alt="토마틸로"></a></li>
+                <li><a href="#shop10"><img src="imgs/main/logo_10.jpg" alt="훌리오"></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="bg_brown2 btn_area">
+        <a href="entry.html" class="getIt_btn bg_brown2"><img src="imgs/main/btn_getIt.jpg" alt="풀드포크 매장 식사권 받기 get it Now"></a>
+    </section>
+</div>
+<footer class="bg_brown2">
+    <img src="imgs/common/img_footer_final.jpg" alt="미국육류수출협회 U.S Meat Export Federation">
+    <p class="blind">서울시 종로구 종로1길 42 이마빌딩 303호 사업자등록번호:101-84-02577 대표자:조엘해거트 copyright 2004 usmef.all rights reserved</p>
+</footer>
+
+
+    <article id="pop_priv" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont" style="text-align:center;">
+              <h1>풀드포크,<br />그 맛이 알고 싶다.</h1>
+                <dl>
+                  <dt>당첨 식사권 기간 연장 안내 종료<br /><br /></dt>
+
+
+                  <dd>
+                  2018년 4월 2일부터 4월 8일까지 진행한<br />
+                  “풀드포크, 그 맛이 알고 싶다” 에 참여해주신 모든 분들께 <br />
+                  진심으로 감사드립니다.<br /><br />
+                  </dd>
+
+                  <dd>
+                    앞서 공지드린 바와 같이<br />
+                    기간 내 미사용 당첨자 분들께 대한 안내가 <br />
+                    모두 종료되었음을 알려드리며,<br />
+                    응답해주신 고객님들께 다시 한번 감사말씀드립니다.<br /><br /><br />
+                  </dd>
+
+                  <dd>
+                  풀드포크 관련 문의(대행사 ㈜제스트앤)<br />
+                  <a href="tel:070-4633-2011">070-4633-2011</a><br />
+                  (평일 오전9시~오후6시)<br />
+                  </dd>
+                </dl>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+        </div>
+    </article>
+
+
+
+
+
+
+<script>
+    function layerShow(tar) {
+        $(tar).show(300);
+	};
+	$('.pop_close').click(function() {
+		$(this).parents('.pop_bg').hide(300);
+		return false;
+	});
+	//layerShow("#pop_priv");
+</script>
+</body>
+</html>

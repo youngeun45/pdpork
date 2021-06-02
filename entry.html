@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>풀드포크</title>
+    <meta name="viewport" content="width=640, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="css/contents.css?v=20180112">
+    <link rel="stylesheet" href="css/lib/owl.carousel.min.css">
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/ui_script.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <header>
+    <h1 class="blind">풀드포크 그맛이 알고 싶다!</h1>
+    <img src="imgs/entry/img_sub_top.jpg" alt="식사권 당첨 이벤트 풀드포크 그맛이 알고싶다! 일주일한정">
+    </header>
+    <div class="contents entry">
+        <section class="bg_brown2 section1">
+            <div class="inner_sub">
+            <p><img src="imgs/entry/tit_entry01.jpg" alt="1 퀴즈 빈칸에 맞는 문구를 넣어주세요^^"></p>
+            <div class="txt">
+                    <input type="text" name="answer1" id="answer1" class="answer_box" maxlength="1">
+                    <input type="text" name="answer2" id="answer2" class="answer_box" maxlength="1">
+                    <input type="text" name="answer3" id="answer3" class="answer_box" maxlength="1">
+                    <input type="text" name="answer4" id="answer4" class="answer_box" maxlength="1">
+                    는 미국산 돼지고기를 <br>오랜시간 스모크하여 만든 아메리칸 바비큐 요리입니다.
+                </div>
+            </div>
+        </section>
+        <section class="bg_brown section2">
+            <div class="inner_sub">
+                <p><img src="imgs/entry/tit_entry02.jpg" alt="2 식사권 선택"></p>
+                <div class="txt">
+                    원하시는 풀드포크 맛집 식사권을 <span>2개</span> 선택해주세요! <br>(선택한 2개 중 1개만 당첨)<br>식사권의 레스토랑은 매일 매일 변경됩니다.
+                </div>
+                <ul>
+					<li>
+						<label>
+							<p class="entry_img"><img src="imgs/entry/img_shop_entry01.jpg" alt="식사권신청매장"></p>
+							<div><p>로코스비비큐 (경리단길 본점)</p> <span>로코스 오리지널 풀드포크 버거</span></div>
+							<img src="imgs/entry/logo_shop_entry01.jpg" alt="로고스비비큐">
+							<p class="checkbox_area">
+								<input name="shop_sel" id="" type="checkbox" class="checkbox od_chk" value=""/>
+								<span class="lbl"></span>
+							</p>
+						</label>
+					</li>
+					<li>
+						<label>
+							<p class="entry_img"><img src="imgs/entry/img_shop_entry01.jpg" alt="식사권신청매장"></p>
+							<div><p>로코스비비큐 (경리단길 본점)</p> <span>로코스 오리지널 풀드포크 버거</span></div>
+							<img src="imgs/entry/logo_shop_entry01.jpg" alt="로고스비비큐">
+							<p class="checkbox_area">
+								<input name="shop_sel" id="" type="checkbox" class="checkbox od_chk" value=""/>
+								<span class="lbl"></span>
+							</p>
+						</label>
+					</li>
+					<li>
+						<label>
+							<p class="entry_img"><img src="imgs/entry/img_shop_entry01.jpg" alt="식사권신청매장"></p>
+							<div><p>로코스비비큐 (경리단길 본점)</p> <span>로코스 오리지널 풀드포크 버거</span></div>
+							<img src="imgs/entry/logo_shop_entry01.jpg" alt="로고스비비큐">
+							<p class="checkbox_area">
+								<input name="shop_sel" id="" type="checkbox" class="checkbox od_chk" value=""/>
+								<span class="lbl"></span>
+							</p>
+						</label>
+					</li>
+                </ul>
+            </div>
+        </section>
+        <section class="bg_brown2 section3">
+            <div class="inner_sub">
+                <p><img src="imgs/entry/tit_entry03.jpg" alt="3 개인정보 입력"></p>
+                <p class="input_area"><strong class="name">이름</strong><input type="text" name="username" id="username" class="w95"maxlength="20" value="" /></p>
+                <p class="input_area"><strong>휴대폰<br>번호</strong>
+                    <input type="tel" name="usertel1" id="usertel1" title="휴대전화앞세자리" maxlength="4" onkeyup="vOnlyNumber(this);" value="" /> -
+                    <input type="tel" name="usertel2" id="usertel2" title="휴대전화중간세자리 및 네자리" maxlength="4" onkeyup="vOnlyNumber(this);" value="" /> -
+                    <input type="tel" name="usertel3" id="usertel3" title="휴대전화뒤네자리" maxlength="4" onkeyup="vOnlyNumber(this);" value="" /></p>
+                <div class="priv_area">
+                    <strong>개인정보 취급방침 동의</strong>
+                    <label>
+                        <input name="agree" id="agree" type="checkbox" class="checkbox od_chk" value="Y" />
+                        <span class="lbl"></span>
+                    </label>
+                    <a href="#pop_priv" onclick="layerShow('#pop_priv');"><img src="imgs/entry/btn_priv.jpg" alt="개인정보 취급방침 자세히 보기"></a>
+                </div>
+                <div class="priv_area">
+                    <strong>개인정보 취급위탁 동의</strong>
+                    <label>
+                        <input name="agree_ref" id="agree_ref" type="checkbox" class="checkbox od_chk" value="Y" />
+                        <span class="lbl"></span>
+                    </label>
+                    <a href="#pop_priv" onclick="layerShow('#pop_priv_2');"><img src="imgs/entry/btn_priv.jpg" alt="개인정보 취급방침 자세히 보기"></a>
+                </div>
+
+				<p class="mt57"><a href="ticket_customer.html"><img src="imgs/entry/btn_entry.jpg" alt="응모하기" /></a></p>
+            </div>
+        </section>
+        <section class="bg_brown2">
+            <div class="inner_sub">
+                <img src="imgs/entry/img_notice_entry.jpg" alt="유의사항">
+                <p class="blind">휴대폰 번호를 기준으로 1일 5회 참여 가능합니다. <br>선택할 수 있는  식사권은 매일 변경됩니다.<br>식사권은 문자로 발송되며, 잘못된 정보로  인해 <br>식사권 오류 발송 시, 재발송 되지 않습니다.</p>
+            </div>
+        </section>
+        <div class="bgLayer"></div>
+    </div>
+    <footer class="bg_brown2">
+        <img src="imgs/common/img_footer_final.jpg" alt="미국육류수출협회 U.S Meat Export Federation">
+        <p class="blind">서울시 종로구 종로1길 42 이마빌딩 303호 사업자등록번호:101-84-02577 대표자:조엘해거트 copyright 2004 usmef.all rights reserved</p>
+    </footer>
+    <!-- 개인정보팝업 -->
+    <article id="pop_priv" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <h1>개인정보 취급방침</h1>
+                <dl>
+                    <dt>개인정보 수집 이용 안내</dt>
+                    <dd>미국육류수출협회는 본 이벤트를 위하여 아래와 같은<br> 고객님의 개인정보를 수집 및 이용합니다.</dd>
+                    <dd>-수집 항목: 이름, 휴대폰번호</dd>
+                    <dd>-수집 및 이용목적: 당첨자 선정, 당첨자 식사권 문자 발송</dd>
+                    <dd>-보유 기간: 이벤트 종료일로 부터 2개월</dd>
+                </dl>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+        </div>
+    </article>
+
+<!-- 개인정보팝업 -->
+    <article id="pop_priv_2" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <h1>개인정보 위탁방침</h1>
+                <dl>
+                    <dt>개인정보 위탁 안내</dt>
+                    <dd>미국육류수출협회는 원활한 이벤트 진행을 위하여 수집한<br> 개인정보를 전문 업체에 위탁하여 처리하고 있습니다.</dd>
+                    <dd>-위탁받는업체: ㈜제스트앤</dd>
+                    <dd>-위탁 업무: 이벤트 운영을 위한 개인정보 취급 및 식사권
+                        <span> 발송, 고객응대</span></dd>
+                    <dd>-연락처: zestn@zestn.co.kr <br />　　　　070-4633-2011</dd>
+					<dd>- 담당자: 조현태 과장</dd>
+                </dl>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+        </div>
+    </article>
+
+
+    <!-- 불합격팝업 -->
+    <article id="pop_fail" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_x.jpg" alt="정답이아닙니다"></p>
+                <p>퀴즈의 정답이 아닙니다! <br>다시 입력해주세요^^;;</p>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+            </div>
+    </article>
+
+    <!-- 합격팝업 -->
+    <article id="pop_pass" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_o.jpg" alt="정답입니다."></p>
+                <p>응모가 완료되었습니다 <br>당첨자발표는 익일 <span>16시</span> 개별 연락됩니다^^ <br>(평일 기준:금,토요일 응모시 월요일 발표)</p>
+            </div>
+            <a href="" class="btn_close">닫기</a>
+        </div>
+    </article>
+
+	<!-- 5회이상팝업 -->
+    <article id="pop_over" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_o.jpg" alt="정답입니다."></p>
+                <p>휴대폰 번호를 기준으로<br>1일 5회 참여가능<span>합니다.</p>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+        </div>
+    </article>
+
+	<!-- 성명입력팝업 -->
+    <article id="pop_user" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_x.jpg" alt="정답이아닙니다"></p>
+                <p>이름 또는 휴대폰 번호를 <br>다시 입력해주세요!</p>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+            </div>
+    </article>
+	<!-- 식사권선택팝업 -->
+    <article id="pop_meal" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_x.jpg" alt="정답이아닙니다"></p>
+                <p>원하시는 풀드포크 맛집 식사권을 <br><span>2개</span> 선택해주세요!</p>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+            </div>
+    </article>
+
+	<!-- 개인정보동의팝업 -->
+    <article id="pop_agree" class="pop_bg">
+        <div class="pop_wrap">
+            <div class="pop_cont">
+                <p><img src="imgs/common/bg_pig_x.jpg" alt="정답이아닙니다"></p>
+                <p>개인정보 취급방침과 개인정보 취급위탁에<br/> 모두 동의하지 않으면<br>응모하기가 제한됩니다.</p>
+            </div>
+            <a href="#" class="btn_close pop_close">닫기</a>
+            </div>
+    </article>
+</div>
+</body>
+<script>
+    function layerShow(tar) {
+        $(tar).show(300);
+	};
+	$('.pop_close').click(function() {
+		$(this).parents('.pop_bg').hide(300);
+		return false;
+	});
+</script>
+</html>
